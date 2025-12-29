@@ -2,7 +2,7 @@
   "name": "day-4-express-router",
   "version": "1.0.0",
   "description": "",
-  "main": "db.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -12,10 +12,13 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "body-parser": "^2.2.1",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.0.1",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
   }
 }
