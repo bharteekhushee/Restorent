@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
 const personRoutes = require('./routes/personRoutes')
 const menuItemRoutes = require('./routes/menuItemRoutes');
 
-app.use('/person',localAuthMiddleware, personRoutes)
+app.use('/person', personRoutes)
 app.use('/menu', menuItemRoutes)
 
 const PORT = process.env.PORT || 3005;
